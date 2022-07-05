@@ -14,7 +14,6 @@ export default function ContactList() {
     }
 
     const visibleContacts =  filteredContacts();
-// console.log(visibleContacts);
     return (
         <div>
             {visibleContacts.length !== 0 && <ul className={s.list}>
